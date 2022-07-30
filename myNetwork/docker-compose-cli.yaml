@@ -50,7 +50,7 @@ services:
       - CORE_LOGGING_LEVEL=INFO
       - CORE_PEER_ID=cli
       - CORE_PEER_ADDRESS=peer0.peer1.myNetwork.com:7051
-      - CORE_PEER_LOCALMSPID=Burakcan1MSP
+      - CORE_PEER_LOCALMSPID=myPeer1MSP
       - CORE_PEER_TLS_ENABLED=true
       - CORE_PEER_TLS_CERT_FILE=/opt/gopath/fabric-samples/myNetwork/crypto-config/peerOrganizations/peer1.myNetwork.com/peers/peer0.peer1.myNetwork.com/tls/server.crt
       - CORE_PEER_TLS_KEY_FILE=/opt/gopath/fabric-samples/myNetwork/crypto-config/peerOrganizations/peer1.myNetwork.com/peers/peer0.peer1.myNetwork.com/tls/server.key
