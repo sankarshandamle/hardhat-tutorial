@@ -164,8 +164,8 @@ Profiles:
       Consortiums:
         MyFirstConsortium:
           Organizations:
-            - *Test1
-            - *Test2
+            - *myPeer1
+            - *myPeer2
             
     ChannelDemo:
       Consortium: MyFirstConsortium
@@ -173,8 +173,8 @@ Profiles:
       Application:
         <<: *ApplicationDefaults
         Organizations:
-          - *Test1
-          - *Test2
+          - *myPeer1
+          - *myPeer2
           
         Capabilities:
           <<: *ApplicationCapabilities
