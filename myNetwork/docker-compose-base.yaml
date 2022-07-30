@@ -48,7 +48,7 @@ services:
       - 7051:7051
   
 
-  peer0.be2.burakcan-network.com:
+  peer0.peer2.myNetwork.com:
     container_name: peer0.peer2.myNetwork.com
     extends:
       file: peer-base.yaml
