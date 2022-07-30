@@ -59,7 +59,7 @@ services:
       - CORE_PEER_ADDRESS=peer0.peer2.myNetwork.com:7051
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.peer2.myNetwork.com:7051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.peer2.myNetwork.com:7051
-      - CORE_PEER_LOCALMSPID=myPeer1MSP
+      - CORE_PEER_LOCALMSPID=myPeer2MSP
     volumes:
         - /var/run/:/host/var/run/
         - ../crypto-config/peerOrganizations/peer2.myNetwork.com/peers/peer0.peer2.myNetwork.com/msp:/etc/hyperledger/fabric/msp
