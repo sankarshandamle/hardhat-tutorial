@@ -17,7 +17,7 @@ Organizations:
                 Rule: "OR('OrdererMSP.admin')"
 
     OrdererEndpoints:
-            - orderer.myNetwork.com.com:7050
+            - orderer.myNetwork.com:7050
 
   - &myPeer1
     Name: myPeer1MSP
