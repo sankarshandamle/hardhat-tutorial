@@ -68,6 +68,6 @@ services:
     depends_on:
       - orderer.myNetwork.com
       - peer0.peer1.myNetwork.com
-      - peer0.peer1.myNetwork.com
+      - peer0.peer2.myNetwork.com
     networks:
       - byfn
