@@ -83,7 +83,7 @@ Orderer: &OrdererDefaults
 
     OrdererType: solo
     Addresses: 
-        - orderer.burakcan-network.com:7050
+        - orderer.myNetwork.com:7050
     BatchTimeout: 2s
     BatchSize:
         MaxMessageCount: 10
